@@ -22,5 +22,82 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "SF UI Display", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/fonts/SFUIDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/fonts/SFUIDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/fonts/SFUIDisplay-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+.badge{
+  width: 242.56px;
+  height: 49px;
+  font-size: 20.42px;
+  background: #1a1a1b;
+  display: inline-block;
+  padding: 10.89px 21.78px 10.89px 21.78px;
+  border-radius: 680.56px;
+  margin-top:65px;
+  margin-left: 55px;
+}
+.title{
+  margin-left: 55px;
+  margin-top: 17px;
+  font-size: 52px;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+}
+.logo-big{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 152.39px;
+  width: 148px;
+}
+.branding{
+  display: inline-flex;
+  margin-left: 55.81px;
+  margin-top: 167.31px;
+  box-sizing: border-box;
+  width: 205px;
+  height: 56px;
+}
+.branding span{
+  color:#ADA8D6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 110%;
+  vertical-align: bottom;
+  letter-spacing: 0;
+}
+.branding h3{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 110%;
+  vertical-align: bottom;
+  letter-spacing: 0;
+}
+.brand-name{
+  padding-left: 12px;
 }
