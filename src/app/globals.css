@@ -101,3 +101,22 @@ body {
 .brand-name{
   padding-left: 12px;
 }
+
+@media screen and (max-width: 600px) {
+  .badge{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .title{
+    margin: 20px auto !important;
+    text-align: center;
+  }
+  .branding {
+    margin: 20px auto;          
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    width: fit-content;      
+  }
+}
